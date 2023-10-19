@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+\:root
+  --background: #ECEFF1
+  --color: #333333
+  --dark: #000000
+  --withe: #FFF
+  --gray: #EFF7FC
+  --button-order: #444444
+  --header-background: var(--background)
+  --header-box-shadow: var(--dark)
+
+\:root .dark
+  --background: #333333
+  --color: #FFFFFF
+  --dark: #FFFFFF
+  --withe: #000
+  --gray: #9ea7ab
+  --button-order: #FFFFFF
+  --header-background: var(--background)
+  --header-box-shadow: var(--dark)
+
+*
+  font-family: Helvetica, serif
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+html,body
+  height: 100vh
+  background: var(--background)
+  transition: 0.3s
+  color: var(--color)
+

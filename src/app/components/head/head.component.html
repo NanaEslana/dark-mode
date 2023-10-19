@@ -1,0 +1,10 @@
+<header>
+  <h2>Light and Dark</h2>
+  <div>
+    <input (change)="changeTheme()" type="checkbox" name="change-theme" id="change-theme">
+    <label for="change-theme">
+      <i *ngIf="isDark" class="bi bi-sun"></i>
+      <i *ngIf="!isDark" class="bi bi-moon"></i>
+    </label>
+  </div>
+</header>

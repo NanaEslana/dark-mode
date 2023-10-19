@@ -1,0 +1,64 @@
+main
+  display: flex
+  justify-content: center
+
+  .card
+    margin-top: 4rem
+    display: flex
+    width: 60%
+    background-color: var(--withe)
+    box-shadow: 5px 5px 5px 0px rgba(0 ,0 ,0 ,0.3)
+
+    .card-image
+      padding: 2rem
+      width: 50%
+      position: relative
+      background-color: var(--gray)
+
+      span
+        font-size: 6rem
+        font-weight: 900
+
+      img
+        width: 130%
+        transform: rotate(-25deg)
+        position: absolute
+        right: -1rem
+        top: 10rem
+
+    .card-details
+      width: 50%
+      padding: 2rem
+
+      h2
+        font-size: 3rem
+        margin-bottom: 1rem
+
+      .subtitle
+        color: #444
+        text-transform: uppercase
+        font-weight: bold
+        margin-bottom: 1rem
+
+      .description
+        line-height: 1.6rem
+        margin-bottom: 2rem
+
+      .price-container
+        display: flex
+        justify-content: space-between
+
+        .price
+          font-weight: 900
+          font-size: 2rem
+
+        .btn
+          background-color: var(--button-order)
+          width: 7rem
+          height: 3rem
+          border: none
+          border-radius: 3rem
+          color: var(--withe)
+          text-transform: uppercase
+          cursor: pointer
+
